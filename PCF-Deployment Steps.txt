@@ -1,0 +1,9 @@
+Cloud Foundry Pivotal - Deployment Steps
+----------------------------------------
+cf login
+username & password
+Select Org
+Select Space
+cf push (Before this "CF PUSH" command, make sure everything should be correct in manifest.yml)
+cf logout
+----------------------------------------

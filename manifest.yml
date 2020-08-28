@@ -1,0 +1,8 @@
+---
+applications:
+
+- name: flask_api
+  memory: 256M
+  instances: 2
+  buildpack: python_buildpack
+  command: python main.py -o
